@@ -1,0 +1,14 @@
+.Home {
+    background-image: url("../../images/stars.svg");
+    background-color: #000000;
+    height: calc((100vh - 44px) - 1rem);
+}
+
+.Home__content {
+    display: flex;
+    justify-content: center;
+    height: calc((100vh - 44px) - 1rem);
+    align-items: center;
+    color: white;
+}
+

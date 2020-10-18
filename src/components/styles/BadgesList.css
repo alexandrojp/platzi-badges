@@ -1,0 +1,24 @@
+.BadgesList {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 8px 8px 8px 8px;
+    margin-bottom: 10px;
+    transition: transform .5s;
+}
+
+.BadgesList a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BadgesList:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.BadgesList__link {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
